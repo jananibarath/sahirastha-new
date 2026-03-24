@@ -4,8 +4,8 @@ Block theme implementation target for the consolidated SahiRastha website.
 
 ## Usage notes
 - Set this as the active theme in WordPress.
-- Create pages with slugs matching template files (for example: `services`, `process`, `pathways-after-a-death`).
-- Set homepage display to a static page using slug `home` or assign the Front Page template.
+- On theme activation, a one-time setup routine creates the required core, service, and pathway pages when missing and seeds editable page content.
+- The setup routine also assigns `Home` as static front page and creates/repairs a `Primary Navigation` menu.
 
 ## Content model
 - Core site chrome is in `parts/` and `theme.json`.
